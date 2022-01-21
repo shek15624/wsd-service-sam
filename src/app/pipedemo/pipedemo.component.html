@@ -1,0 +1,42 @@
+<h2>Custom Pipe</h2>
+{{ 2 | sqr }}<br>
+
+{{ 3 | cub }}<br>
+
+
+
+<p>pipedemo works!</p>
+{{str}}<br>
+
+
+<h1>
+{{str | uppercase}}<br>
+{{str | lowercase}}<br>
+{{str | titlecase}}<br>
+{{str | slice:0:5}}<br>
+{{str | slice:5:10}}<br>
+</h1>
+
+{{d1}}
+{{d1 | date}}<br>
+{{d1 | date:'dd/MM/yyyy'}}<br>
+{{d1 | date:'MM/dd/yyyy'}}<br>
+{{d1 | date:'yyyy/MM/dd'}}<br>
+{{d1 | date | uppercase}}<br>
+
+
+{{amount}}
+{{amount | currency}}<br>
+{{amount | currency:'INR'}}<br>
+{{amount | currency:'JPY'}}<br>
+{{amount | currency:'EUR'}}<br>
+{{amount | currency:'CAD'}}<br>
+{{amount | currency:'USD'}}<br>
+
+{{emp}}<br> <!--json pipe not work (obj obj)-->
+{{emp | json}} 
+
+
+
+
+

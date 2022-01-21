@@ -1,0 +1,35 @@
+<header>
+
+    <div class="calculator" style="text-align: center;">
+
+        <div class="price1-">
+        <input type="number" class="price" [(ngModel)]="price" placeholder="Price" style="padding-left: 8px;"><br>
+        </div>
+    
+        <div class="loan-1">
+        <select value="loan" class="loan" style="padding-left: 8px;"><br>
+            <option>CarLoan-8%</option><br>
+            <option>HomeLoan-7%</option><br>
+            <option>personalLoan-10%</option><br>
+        </select><br>
+        </div>
+
+        <div class="rate-1">
+            <input type="number" class="roi" [(ngModel)]="rate" placeholder="0%" style="padding-left: 8px;"><br>
+            </div>
+    
+        <div class="number">
+        <input type="number" class="month" [(ngModel)]="month" placeholder="Month" style="padding-left: 8px;" ><br>
+        </div>
+    
+    
+    <div class="numbers">
+        <input type="number" class="total" [(ngModel)]="interest" placeholder="Total" style="padding-left: 8px;" >
+        <input type="number" class="emi" [(ngModel)]="total" placeholder="Emi" style="padding-left: 8px;"><br>
+    </div>
+        
+    
+        <input type="button" class="btn-1" (click)="calculate()" value="Calculate">
+        <button (click)="clearValue()" class="btn-2">Reset</button>
+    </div>
+</header>

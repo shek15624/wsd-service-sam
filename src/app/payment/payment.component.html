@@ -1,0 +1,75 @@
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    payment
+  </button>
+   -->
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Account No:<input type="number" class="n" #account><br>
+            Amount:<input type="number" class="n-n" #amount><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Pay</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-5" style="margin: 20px auto;">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 183px; margin-top: 20px;">
+        Payment
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Payment</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="card">
+                <div class="card-body d-flex justify-content-end">
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label>Phone Number</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="number" [(ngModel)]="number">
+                  </div>
+                </div>
+                <div class=" row">
+                  <div class="col-sm-6">
+                    <label>Amount</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="number" [(ngModel)]="amount">
+                  </div>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <!-- <button class="btn btn-success" (click)="pay()">Pay</button> -->
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" (click)="pay()">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

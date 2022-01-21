@@ -1,0 +1,76 @@
+
+.calculator{
+    text-align: center;
+    height: 50%;
+    background: rgba(255, 0, 98, 0.68);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 245, 255, 0.08);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 12px;
+    margin-left: 343px;
+    width: 50%;
+}
+.price{
+    padding: 10px 0px;
+    width: 280px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border: 1px solid #00f3ff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.roi{
+    padding: 10px 0px;
+    width: 280px;
+    margin-bottom: 25px;
+    border: 1px solid #00f3ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.loan{
+    padding: 10px 0px;
+    width: 280px;
+    margin-bottom: 25px;
+    border: 1px solid #00f3ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.month{
+    padding: 10px 0px;
+    width: 280px;
+    border: 1px solid #00f3ff;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.total{
+    padding: 10px 0px;
+    width: 180px;
+    margin-bottom: 25px;
+    border: 1px solid #00f3ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 23px;
+
+}
+.emi{
+    padding: 10px 0px;
+    width: 180x;
+    margin-bottom: 25px;
+    border: 1px solid #00f3ff;
+    margin-left: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-1{
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-2{
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
